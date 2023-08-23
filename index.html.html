@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FK Cart</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .nav1
+        {
+            background-color:#4285f0 ;
+        }
+        .nav1 div
+        {
+            display: flex;
+            /* border: 2px solid black; */
+            width: 77vw;
+            margin: auto;
+        }
+        div a
+        {
+            color: #ede6e6;
+            text-decoration: none;
+            font-weight: 200;
+            font-size: 13px;
+            padding-left: 30px;
+            margin-bottom: 20px;
+            /* border: 2px solid black; */
+        }
+        div a span
+        {
+            color: #EBDA16;
+            font-weight: 900;
+            /* border: 2px solid black; */
+        }
+        .imglogo
+        {
+            width: 100px;
+            padding-top: 20px;
+            padding-left: 25px;
+            /* border: 2px solid black; */
+        }
+        .img1
+        {
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid black; */
+        }
+        .Searchbar
+        {
+            width:745px;
+            height: 40px;
+            padding-left: 20px;
+            /* border: 2px solid black; */
+        }
+        .login
+        {
+            background-color: #fff;
+            color: #4285f0;
+            margin-left: 200px;
+            border: none;
+            font-weight: 900;
+            font-size: 15px;
+            width: 120px;
+            height: 35px;
+            /* border: 2px solid black; */
+        }
+        .unorder1 li
+        {
+            display: inline-block;
+            margin: 50px;
+            box-shadow: 10px  10px  #e6e3e3;
+            /* border: 2px solid black; */
+        }
+        .unorder1 li a
+        {
+            color: #000;
+            margin: 200px;
+            margin-left: 280px;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .unorder1 li a:hover
+        {
+            color:#4285f0;
+        }
+        .unorder2 li
+        {
+            display:block;
+           
+        }
+        .unorder2 li img
+        {
+            width: 250px;
+            margin: 10px 500px;
+        }
+        .unorder2 h3
+        {
+            margin: 10px 550px;
+            font-weight: 300;
+            
+        }
+        .unorder2 p
+        {
+            margin: 10px 520px;
+            font-size: 13px;
+        }
+        .unorder2 button
+        {
+            background-color: #FB641B;
+            color: #fff;
+            border: none;
+            width: 170px;
+            height: 40px;
+            margin: 10px 550px;
+        }
+        .header2 
+        {
+            margin-left: 100px;
+            margin-right: 150px;
+           
+        }
+        .unorder2
+        {
+            box-shadow: 10px 10px  #c4c4c4;
+            margin-bottom: 20px;
+            /* border: 2px solid #000; */
+        }
+        .header3 div
+        {
+            color: #000;
+            display: flex;
+            margin:10px 50px;
+            list-style-type: none;
+            justify-content: space-between;
+        }
+
+        
+       
+       
+    </style>
+</head>
+<body>
+    <nav class="nav1">
+        <div type="none">
+             <div class="img1"><img class="imglogo" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="">
+               <a class="explore" href="https://www.flipkart.com/plus">Explore <span class="plus">plus✧</span></a>
+             </div>
+            <div>
+                <input class="Searchbar" type="Search" placeholder="Search for Porduct,Brands and More">
+            </div>
+            <div>
+                <button class="login"><b>Login</b></button>
+            </div>
+        </div>
+    </nav>
+    <div class="header1">
+        <ul class="unorder1">
+            <li>
+                <a href="https://www.flipkart.com/viewcart?exploreMode=true&marketplace=FLIPKART">Flipkart</a>
+            </li>
+            <li>
+                <a href="https://www.flipkart.com/viewcart?exploreMode=true&marketplace=GROCERY">Grocery</a>
+            </li>
+        </ul>
+    </div>
+    <div class="header2">
+        <ul class="unorder2">
+            <li>
+                <img src="https://rukminim2.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90" alt="">
+            </li>
+            <li>
+                <h3>Missing Cart items?</h3>
+            </li>
+            <li>
+                <p>Login to see the items you added previously</p>
+            </li>
+            <li>
+                <button>Login</button>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <div class="header3">
+        <div>
+            <li>Policies:Returns Policy</li>
+            <li>Terms of use</li>
+            <li>Security</li>
+            <li>Privacy</li>
+            <li>Infringement</li>
+            <li>© 2007-2023 Flipkart.com</li>
+            <li>Need help? Visit the<a href="" style="color: blue;"> Help Center  </a>or
+              <a href="" style="color: blue;">Contact Us</a> </li> 
+        </div>
+    </div>
+</body>
+</html>
